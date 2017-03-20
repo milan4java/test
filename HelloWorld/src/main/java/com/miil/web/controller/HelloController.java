@@ -24,7 +24,7 @@ public class HelloController {
 		ModelAndView model = new ModelAndView();
 		model.setViewName("hello");
 		model.addObject("msg", name);
-
+		System.out.println("Changes to be made.....");
 		return model;
 
 	}
